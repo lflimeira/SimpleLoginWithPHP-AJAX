@@ -1,0 +1,11 @@
+#principal{
+	text-align: center;
+}
+.row-box-login{
+	margin-top: 5%;
+}
+.box-login{
+	background-color: #fff;
+	min-height: 300px;
+	padding-top: 40px;
+}

@@ -1,0 +1,28 @@
+.row-box-login{
+	margin-top: 5%;
+}
+.box-login{
+	background-color: #fff;
+	min-height: 300px;
+	padding-top: 40px;
+}
+.btn-entrar{
+	text-align: center;
+	margin-bottom: 20px;
+}
+.img-captcha{
+	text-align: right;
+	padding-right: 2px;
+}
+.img-captcha img{
+	margin-top: 2px;
+}
+.label-captcha{
+	text-align: center;
+}
+.txt-captcha{
+	padding-left: 2px;
+}
+#captcha{
+	height: 25px
+}

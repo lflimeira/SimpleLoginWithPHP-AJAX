@@ -1,0 +1,20 @@
+body {
+	background-color: #d2d6de;
+	color: #575757;
+}
+.form-control{
+	border-radius: 14px;
+	height: 30px;
+}
+legend{
+	text-align: center;
+	color: #575757;
+}
+div{
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+.img-responsive{
+	display: inline;
+}

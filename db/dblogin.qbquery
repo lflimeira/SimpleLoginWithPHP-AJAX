@@ -1,0 +1,10 @@
+﻿CREATE DATABASE dblogin ;
+DROP TABLE IF EXISTS `dblogin`.`users`;
+CREATE TABLE  `dblogin`.`users` (
+  `user_id` int(11) NOT NULL AUTO_INCREMENT,
+  `user_username` varchar(255) NOT NULL,
+  `user_pass` varchar(255) NOT NULL,
+  `user_first_access` char(1) NOT NULL,
+  PRIMARY KEY (`user_id`),
+  UNIQUE KEY `user_username` (`user_username`)
+) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
